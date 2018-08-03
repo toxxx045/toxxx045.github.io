@@ -1,0 +1,94 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+body header {
+  color: white;
+}
+body header > h1 {
+  font-family: Syncopate, Arial, sans-serif;
+  font-size: 60px;
+  margin-top: 280px;
+  margin-left: 200px;
+  margin-bottom: 5px;
+}
+body header > p {
+  font-family: Syncopate, Arial, sans-serif;
+  font-size: 24px;
+  margin-left: 320px;
+}
+body nav ul {
+  display: flex;
+  width: 500px;
+  margin-top: 24px;
+  margin-left: 500px;
+}
+body nav li {
+  text-align: center;
+  width: 100px;
+}
+body nav a {
+  font-family: Raleway, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+#page--home {
+  background: #DED7D7 url("../img/ship.jpg") no-repeat fixed 0 0/cover;
+}
+#page--about {
+  background: #DED7D7;
+}
+#page--about .container {
+  display: flex;
+  justify-content: space-between;
+}
+#page--about .content-container {
+  margin-top: 200px;
+}
+#page--about p {
+  font-family: Raleway, Helvetica, sans-serif;
+  margin-top: 60px;
+  margin-right: 80px;
+  margin-left: 50px;
+  padding-left: 10px;
+  line-height: 2;
+  border-left: 2px solid #5C1F37;
+}
+#page--about img {
+  border-radius: 50%;
+  margin-left: 80px;
+}
+#page--about nav a {
+  color: #5C1F37;
+}
+#page--portfolio {
+  background: #DED7D7;
+}
+#page--portfolio nav a {
+  color: #5C1F37;
+}
+#page--portfolio .pdes {
+  display: flex;
+  margin-top: 80px;
+}
+#page--portfolio .pdes--content {
+  font-family: Syncopate, Arial, sans-serif;
+  color: #5C1F37;
+  margin-left: 10px;
+  font-size: 30px;
+}
+#page--portfolio .graphic {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 180px;
+}
+#page--portfolio .graphic--content {
+  font-family: Syncopate, Arial, sans-serif;
+  font-size: 30px;
+  margin-left: 70px;
+  color: #5C1F37;
+}
+
+/*# sourceMappingURL=style.css.map */
