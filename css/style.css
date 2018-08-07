@@ -63,14 +63,28 @@ body {
       color: #5C1F37;
       margin-left: 10px;
       font-size: 30px; }
+    #page--portfolio .pdes a {
+      text-decoration: none;
+      color: #5C1F37; }
   #page--portfolio .graphic {
     display: flex;
-    margin-top: 80px;
-    margin-left: 180px; }
+    margin-top: 10%;
+    margin-left: 10%; }
     #page--portfolio .graphic--content {
       font-family: Syncopate, Arial, sans-serif;
       font-size: 30px;
-      margin-left: 70px;
+      margin-left: 9%;
       color: #5C1F37; }
+    #page--portfolio .graphic a {
+      text-decoration: none;
+      color: #5C1F37; }
+#page--pdes-work {
+  background: #DED7D7; }
+  #page--pdes-work nav a {
+    color: #5C1F37; }
+#page--graphic-work {
+  background: #DED7D7; }
+  #page--graphic-work nav a {
+    color: #5C1F37; }
 
 /*# sourceMappingURL=style.css.map */
