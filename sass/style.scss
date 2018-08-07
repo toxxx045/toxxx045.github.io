@@ -110,27 +110,32 @@ body {
             margin-left: 10px;
             font-size: 30px;
          }
+         a{
+            text-decoration: none;
+            color:#5C1F37;
+         }
       }
    .graphic{
       display: flex;
-      margin-top: 80px;
-      margin-left: 180px;
+      margin-top:10%;
+      margin-left: 10%;
       &--content {
          font-family: $font-stack--heading;
          font-size:30px;
-         margin-left:70px;
+         margin-left:9%;
          color: #5C1F37;
       }
-      }
-   .pdes{
-      a{
-         text-decoration: none;
+   }
+}
+
+   &--pdes-work {
+   background: $bg-color;
+   nav {
+      a {
          color:#5C1F37;
       }
    }
-   }
-   &--pdes-work{
-   $bg-color: #DED7D7;
+
 
    }
 }
