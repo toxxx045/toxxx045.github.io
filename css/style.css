@@ -75,9 +75,16 @@ body {
       font-size: 30px;
       margin-left: 9%;
       color: #5C1F37; }
+    #page--portfolio .graphic a {
+      text-decoration: none;
+      color: #5C1F37; }
 #page--pdes-work {
   background: #DED7D7; }
   #page--pdes-work nav a {
+    color: #5C1F37; }
+#page--graphic-work {
+  background: #DED7D7; }
+  #page--graphic-work nav {
     color: #5C1F37; }
 
 /*# sourceMappingURL=style.css.map */

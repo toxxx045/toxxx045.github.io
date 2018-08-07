@@ -125,17 +125,27 @@ body {
          margin-left:9%;
          color: #5C1F37;
       }
+
+      a{
+         text-decoration: none;
+         color:#5C1F37;
+      }
    }
 }
 
    &--pdes-work {
-   background: $bg-color;
-   nav {
-      a {
-         color:#5C1F37;
+      background: $bg-color;
+      nav {
+         a {
+            color:#5C1F37;
+         }
       }
    }
 
-
+   &--graphic-work {
+      background: $bg-color;
+      nav {
+      color:#5C1F37;
+      }
    }
 }
