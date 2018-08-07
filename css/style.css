@@ -72,5 +72,8 @@ body {
       font-size: 30px;
       margin-left: 70px;
       color: #5C1F37; }
+  #page--portfolio .pdes a {
+    text-decoration: none;
+    color: #5C1F37; }
 
 /*# sourceMappingURL=style.css.map */
