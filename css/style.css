@@ -90,8 +90,10 @@ body {
       font-family: Raleway, Helvetica, sans-serif;
       font-size: 20px;
       color: #5C1F37;
-      padding-left: 30px;
-      line-height: 1.5; }
+      margin-left: 50px;
+      padding-left: 15px;
+      line-height: 1.5;
+      border-left: 2px solid #5C1F37; }
 #page--graphic-work {
   background: #DED7D7; }
   #page--graphic-work nav a {
