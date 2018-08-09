@@ -82,14 +82,16 @@ body {
   #page--pdes-work nav a {
     color: #5C1F37; }
   #page--pdes-work #pdes-container-main {
-    display: flex; }
+    display: flex;
+    margin: 5%; }
     #page--pdes-work #pdes-container-main .pdes-content-container {
       flex: 50%; }
     #page--pdes-work #pdes-container-main p {
       font-family: Raleway, Helvetica, sans-serif;
-      font-size: 16px;
+      font-size: 20px;
       color: #5C1F37;
-      padding: 20px; }
+      padding-left: 30px;
+      line-height: 1.5; }
 #page--graphic-work {
   background: #DED7D7; }
   #page--graphic-work nav a {

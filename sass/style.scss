@@ -144,14 +144,17 @@ body {
 
       #pdes-container-main{
          display: flex;
+         margin: 5%;
+
          .pdes-content-container{
             flex: 50%;
          }
          p{
             font-family: $font-stack--content;
-            font-size: 16px;
+            font-size: 20px;
             color: #5C1F37;
-            padding:20px;
+            padding-left:30px;
+            line-height: 1.5;
          }
       }
    }
