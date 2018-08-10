@@ -117,6 +117,23 @@ body {
     color: #5C1F37;
     padding-top: 10px;
     text-align: center;
-    margin-bottom: 10%; }
+    margin-bottom: 12%; }
+  #page--graphic-work .card-container {
+    margin-left: 10%;
+    margin-bottom: 12%; }
+    #page--graphic-work .card-container .card {
+      width: 130px;
+      height: 195px;
+      position: relative;
+      display: inline-block; }
+    #page--graphic-work .card-container .card .img-top {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 99;
+      transition-delay: 5s; }
+    #page--graphic-work .card-container .card:hover .img-top {
+      display: inline; }
 
 /*# sourceMappingURL=style.css.map */
