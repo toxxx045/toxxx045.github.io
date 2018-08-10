@@ -168,6 +168,21 @@ body {
          color:#5C1F37;
          }
       }
+
+      #risd-header{
+         font-family: $font-stack--heading;
+         font-size: 30px;
+         color:#5C1F37;
+      }
+
+      #graphic-container{
+         display: flex;
+         img{
+            flex: 50%;
+            border-left: 2px solid #5C1F37;
+            margin-top: 10%;
+         }
+      }
    }
 
 }
