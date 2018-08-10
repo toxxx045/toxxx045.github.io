@@ -101,12 +101,13 @@ body {
   #page--graphic-work #risd-header {
     font-family: Syncopate, Arial, sans-serif;
     font-size: 30px;
-    color: #5C1F37; }
+    color: #5C1F37;
+    padding-bottom: 20px; }
   #page--graphic-work #graphic-container {
     display: flex; }
     #page--graphic-work #graphic-container img {
       flex: 50%;
-      border-left: 2px solid #5C1F37;
-      margin-top: 10%; }
+      border-bottom: 2px solid #5C1F37;
+      border-top: 2px solid #5C1F37; }
 
 /*# sourceMappingURL=style.css.map */
