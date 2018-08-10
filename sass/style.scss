@@ -175,9 +175,10 @@ body {
          color:#5C1F37;
          padding-bottom: 20px;
          padding-top: 5%;
+         padding-left: 1%;
       }
 
-      #graphic-container{
+      .graphic-container{
          display: flex;
          img{
             flex: 50%;
@@ -192,6 +193,7 @@ body {
       color:#5C1F37;
       padding-top: 10px;
       text-align: center;
+      margin-bottom: 10%;
       }
 
    }
