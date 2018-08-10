@@ -35,14 +35,21 @@ body {
     justify-content: space-between; }
   #page--about .content-container {
     margin-top: 200px; }
-  #page--about p {
+  #page--about #about-paragraph {
     font-family: Raleway, Helvetica, sans-serif;
-    margin-top: 60px;
+    font-size: 16px;
+    margin-top: 5%;
     margin-right: 80px;
     margin-left: 50px;
-    padding-left: 10px;
+    padding-left: 15px;
     line-height: 2;
-    border-left: 2px solid #5C1F37; }
+    border-left: 2px solid #5C1F37;
+    color: #5C1F37; }
+  #page--about #about-hello {
+    font-family: Syncopate, Arial, sans-serif;
+    color: #5C1F37;
+    font-size: 30px;
+    margin-left: 50px; }
   #page--about img {
     border-radius: 50%;
     margin-left: 80px; }
@@ -127,7 +134,7 @@ body {
     color: #5C1F37; }
     #page--graphic-work #p--logotype p {
       padding-bottom: 25px;
-      padding-left: 20px;
+      padding-left: 15px;
       line-height: 1.3;
       border-left: 2px solid #5C1F37; }
   #page--graphic-work #card {
