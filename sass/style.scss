@@ -174,7 +174,7 @@ body {
          font-size: 30px;
          color:#5C1F37;
          padding-bottom: 20px;
-
+         padding-top: 5%;
       }
 
       #graphic-container{
@@ -185,6 +185,15 @@ body {
             border-top: 2px solid #5C1F37;
          }
       }
+
+      p {
+      font-family: $font-stack--content;
+      font-size: 20px;
+      color:#5C1F37;
+      padding-top: 10px;
+      text-align: center;
+      }
+
    }
 
 }
