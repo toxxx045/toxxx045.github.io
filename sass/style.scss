@@ -191,6 +191,8 @@ body {
 
       #graphic-container-book{
          display: flex;
+         width:auto;
+         max-width: 1440px;
          img{
             flex: 50%;
             // border-bottom: 2px solid #5C1F37;
@@ -258,10 +260,11 @@ body {
             color: #5C1F37;
             padding-bottom: 20px;
             padding-left:1%;
-
-            img{
-
-            }
+      }
+      .owl{
+         position:absolute;
+         right: 0px;
+         margin-right:5%;
       }
    }
 }
