@@ -155,5 +155,11 @@ body {
         transition-delay: 5s; }
       #page--graphic-work #card .card-container .card:hover .img-top {
         display: inline; }
+  #page--graphic-work #independent-work {
+    font-family: Syncopate, Arial, sans-serif;
+    font-size: 30px;
+    color: #5C1F37;
+    padding-bottom: 20px;
+    padding-left: 1%; }
 
 /*# sourceMappingURL=style.css.map */
