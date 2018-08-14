@@ -202,7 +202,7 @@ body {
 
       #p {
 
-         &--book-covers{
+         &--book-covers {
          padding-top: 10px;
          text-align: center;
          margin-bottom: 12%;
@@ -211,7 +211,7 @@ body {
          color:#5C1F37;
          }
 
-         &--logotype{
+         &--logotype {
             text-align: left;
             margin-left: 45%;
             margin-right:5%;
@@ -226,6 +226,14 @@ body {
                border-left: 2px solid #5C1F37;
             }
          }
+
+         &--kofe {
+            text-align: center;
+            font-family: $font-stack--content;
+            color: #5C1F37;
+            padding:10px;
+            font-size: 20px;
+         }
       }
 
       #card{
@@ -233,7 +241,7 @@ body {
          justify-content: space-between;
           .card-container {
             margin-left: 5%;
-            margin-bottom: 12%;
+            margin-bottom: 200px;
             .card {
               width: 130px;
               height: 195px;
@@ -266,16 +274,27 @@ body {
       #kofe-lab-container{
          display: flex;
 
-
-         img{
+         .kofe{
             padding:1%;
+            margin-left: auto;
+            margin-right: auto;
+
          }
 
       }
-      .owl{
+      .owl {
+         display: flex;
+         img {
          position:absolute;
          right: 0px;
-         margin-right:5%;
+         margin-top: 200px;
+         }
+
+         p {
+         font-family: $font-stack--content;
+         font-size: 20px;
+         color: #5C1F37;
+         }
       }
    }
 }
