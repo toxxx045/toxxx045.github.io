@@ -262,6 +262,18 @@ body {
          }
       }
 
+      #pixels{
+         display: flex;
+         text-align: center;
+         p{
+            font-family: $font-stack--content;
+            font-size: 20px;
+            color: #5C1F37;
+            padding-right: 30px;
+            padding-left: 30px;
+         }
+      }
+
       #independent-work{
             font-family: $font-stack--heading;
             font-size: 30px;
@@ -291,7 +303,7 @@ body {
          }
 
          p {
-         padding-top:
+         padding-top:10px;
          font-family: $font-stack--content;
          font-size: 20px;
          color: #5C1F37;
