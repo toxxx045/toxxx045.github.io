@@ -1,60 +1,198 @@
-/*
-Error: Invalid CSS after "...    font-family": expected ";", was ": $font-stack--..."
-        on line 295 of /Users/vivianto1/Desktop/toxxx045.github.io/sass/style.scss
+body {
+  width: 100%;
+  height: 100%; }
+  body header {
+    color: white; }
+    body header > h1 {
+      font-family: Syncopate, Arial, sans-serif;
+      font-size: 60px;
+      margin-top: 18%;
+      margin-left: 15%; }
+    body header > p {
+      font-family: Syncopate, Arial, sans-serif;
+      font-size: 24px;
+      margin-left: 25%; }
+  body nav ul {
+    display: flex;
+    width: 500px;
+    margin-top: 3%;
+    margin-left: 35%; }
+  body nav li {
+    text-align: center;
+    width: 100px; }
+  body nav a {
+    font-family: Raleway, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px; }
 
-290:          margin-top: 200px;
-291:          }
-292: 
-293:          p {
-294:          padding-top:
-295:          font-family: $font-stack--content;
-296:          font-size: 20px;
-297:          color: #5C1F37;
-298:          }
-299:       }
-300:    }
+#page--home {
+  background: #DED7D7 url("../img/ship.jpg") no-repeat fixed 0 0/cover; }
+#page--about {
+  background: #DED7D7; }
+  #page--about .container {
+    display: flex;
+    justify-content: space-between; }
+  #page--about .content-container {
+    margin-top: 200px; }
+  #page--about #about-paragraph {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-right: 80px;
+    margin-left: 50px;
+    padding-left: 15px;
+    line-height: 2;
+    border-left: 2px solid #5C1F37;
+    color: #5C1F37; }
+  #page--about #about-hello {
+    font-family: Syncopate, Arial, sans-serif;
+    color: #5C1F37;
+    font-size: 30px;
+    margin-left: 50px; }
+  #page--about img {
+    border-radius: 50%;
+    margin-left: 80px; }
+  #page--about nav {
+    margin: auto; }
+    #page--about nav a {
+      color: #5C1F37; }
+#page--portfolio {
+  background: #DED7D7; }
+  #page--portfolio nav a {
+    color: #5C1F37; }
+  #page--portfolio .pdes {
+    display: flex;
+    margin-top: 80px; }
+    #page--portfolio .pdes--content {
+      font-family: Syncopate, Arial, sans-serif;
+      color: #5C1F37;
+      margin-left: 10px;
+      font-size: 30px; }
+    #page--portfolio .pdes a {
+      text-decoration: none;
+      color: #5C1F37; }
+  #page--portfolio .graphic {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%; }
+    #page--portfolio .graphic--content {
+      font-family: Syncopate, Arial, sans-serif;
+      font-size: 30px;
+      margin-left: 9%;
+      color: #5C1F37; }
+    #page--portfolio .graphic a {
+      text-decoration: none;
+      color: #5C1F37; }
+#page--pdes-work {
+  background: #DED7D7; }
+  #page--pdes-work nav a {
+    color: #5C1F37; }
+  #page--pdes-work #pdes-container-main {
+    display: flex;
+    margin: 5%; }
+    #page--pdes-work #pdes-container-main .pdes-content-container {
+      flex: 50%; }
+    #page--pdes-work #pdes-container-main p {
+      font-family: Raleway, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #5C1F37;
+      margin-left: 50px;
+      padding-left: 15px;
+      line-height: 1.5;
+      border-left: 2px solid #5C1F37; }
+#page--graphic-work {
+  background: #DED7D7; }
+  #page--graphic-work nav a {
+    color: #5C1F37; }
+  #page--graphic-work #risd-header {
+    font-family: Syncopate, Arial, sans-serif;
+    font-size: 30px;
+    color: #5C1F37;
+    padding-bottom: 20px;
+    padding-top: 5%;
+    padding-left: 1%; }
+  #page--graphic-work #graphic-container-book {
+    display: flex;
+    width: auto;
+    max-width: 1440px; }
+    #page--graphic-work #graphic-container-book img {
+      flex: 50%; }
+  #page--graphic-work #p--book-covers {
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 12%;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5C1F37; }
+  #page--graphic-work #p--logotype {
+    text-align: left;
+    margin-left: 45%;
+    margin-right: 5%;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5C1F37; }
+    #page--graphic-work #p--logotype p {
+      padding-bottom: 25px;
+      padding-left: 15px;
+      line-height: 1.3;
+      border-left: 2px solid #5C1F37; }
+  #page--graphic-work #p--kofe {
+    text-align: center;
+    font-family: Raleway, Helvetica, sans-serif;
+    color: #5C1F37;
+    padding: 10px;
+    font-size: 20px; }
+  #page--graphic-work #card {
+    display: flex;
+    justify-content: space-between; }
+    #page--graphic-work #card .card-container {
+      margin-left: 5%;
+      margin-bottom: 200px; }
+      #page--graphic-work #card .card-container .card {
+        width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block; }
+      #page--graphic-work #card .card-container .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        transition-delay: 5s; }
+      #page--graphic-work #card .card-container .card:hover .img-top {
+        display: inline; }
+  #page--graphic-work #pixels {
+    display: flex; }
+    #page--graphic-work #pixels p {
+      font-family: Raleway, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #5C1F37;
+      padding-right: 30px;
+      padding-left: 30px; }
+  #page--graphic-work #independent-work {
+    font-family: Syncopate, Arial, sans-serif;
+    font-size: 30px;
+    color: #5C1F37;
+    padding-bottom: 20px;
+    padding-top: 10%;
+    padding-left: 1%; }
+  #page--graphic-work #kofe-lab-container {
+    display: flex; }
+    #page--graphic-work #kofe-lab-container .kofe {
+      padding: 1%;
+      margin-left: auto;
+      margin-right: auto; }
+  #page--graphic-work .owl {
+    text-align: center;
+    padding-bottom: 200px; }
+    #page--graphic-work .owl img {
+      margin-top: 200px; }
+    #page--graphic-work .owl p {
+      padding-top: 10px;
+      font-family: Raleway, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #5C1F37; }
 
-Backtrace:
-/Users/vivianto1/Desktop/toxxx045.github.io/sass/style.scss:295
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:804:in `block in try_declaration'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `rethrow'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:809:in `try_declaration'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...    font-family\": expected \";\", was \": $font-stack--...\"\A         on line 295 of /Users/vivianto1/Desktop/toxxx045.github.io/sass/style.scss\A \A 290:          margin-top: 200px;\A 291:          }\A 292: \A 293:          p {\A 294:          padding-top:\A 295:          font-family: $font-stack--content;\A 296:          font-size: 20px;\A 297:          color: #5C1F37;\A 298:          }\A 299:       }\A 300:    }"; }
+/*# sourceMappingURL=style.css.map */

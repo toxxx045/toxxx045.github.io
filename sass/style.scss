@@ -264,7 +264,6 @@ body {
 
       #pixels{
          display: flex;
-         text-align: center;
          p{
             font-family: $font-stack--content;
             font-size: 20px;
@@ -283,7 +282,7 @@ body {
             padding-left:1%;
       }
 
-      #kofe-lab-container{
+      #kofe-lab-container {
          display: flex;
 
          .kofe{
