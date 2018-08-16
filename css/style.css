@@ -28,6 +28,16 @@ body {
 
 #page--home {
   background: #DED7D7 url("../img/ship.jpg") no-repeat fixed 0 0/cover; }
+#page--contact {
+  background: #DED7D7; }
+  #page--contact nav {
+    margin: auto; }
+    #page--contact nav a {
+      color: #5C1F37; }
+  #page--contact .email {
+    font-family: Raleway, Helvetica, sans-serif;
+    color: #5C1F37;
+    font-size: 30px; }
 #page--about {
   background: #DED7D7; }
   #page--about .container {

@@ -57,6 +57,20 @@ body {
    &--home {
       background: $bg-color url("../img/ship.jpg") no-repeat fixed 0 0/cover;
    }
+   &--contact {
+   background: $bg-color;
+      nav {
+         margin: auto;
+         a {
+         color: #5C1F37;
+         }
+      }
+   .email {
+      font-family: $font-stack--content;
+      color:#5C1F37;
+      font-size: 30px;
+      }
+   }
 
    &--about {
       background: $bg-color;
@@ -103,7 +117,6 @@ body {
          }
       }
    }
-
    &--portfolio {
       background: $bg-color;
 
