@@ -34,10 +34,22 @@ body {
     margin: auto; }
     #page--contact nav a {
       color: #5C1F37; }
-  #page--contact .email {
-    font-family: Raleway, Helvetica, sans-serif;
-    color: #5C1F37;
-    font-size: 30px; }
+  #page--contact .mail-icon-container {
+    position: relative;
+    width: 100%; }
+    #page--contact .mail-icon-container img {
+      display: block;
+      margin: auto; }
+    #page--contact .mail-icon-container .greeting {
+      position: absolute;
+      font-family: Syncopate, Arial, sans-serif;
+      color: #5C1F37;
+      font-size: 30px; }
+    #page--contact .mail-icon-container .email {
+      position: absolute;
+      font-family: Raleway, Helvetica, sans-serif;
+      color: #5C1F37;
+      font-size: 30px; }
 #page--about {
   background: #DED7D7; }
   #page--about .container {

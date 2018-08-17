@@ -65,11 +65,27 @@ body {
          color: #5C1F37;
          }
       }
-   .email {
-      font-family: $font-stack--content;
-      color:#5C1F37;
-      font-size: 30px;
+      .mail-icon-container{
+         position:relative;
+         width:100%;
+         img{
+            display: block;
+            margin:auto;
+         }
+         .greeting{
+            position:absolute;
+            font-family: $font-stack--heading;
+            color:#5C1F37;
+            font-size: 30px;
+         }
+         .email {
+            position: absolute;
+            font-family: $font-stack--content;
+            color:#5C1F37;
+            font-size: 30px;
+            }
       }
+
    }
 
    &--about {
