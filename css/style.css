@@ -31,7 +31,8 @@ body {
 #page--contact {
   background: #DED7D7; }
   #page--contact nav {
-    margin: auto; }
+    margin: auto;
+    padding-bottom: 8%; }
     #page--contact nav a {
       color: #5C1F37; }
   #page--contact .mail-icon-container {
@@ -44,7 +45,8 @@ body {
       position: absolute;
       font-family: Syncopate, Arial, sans-serif;
       color: #5C1F37;
-      font-size: 30px; }
+      font-size: 30px;
+      margin: auto; }
     #page--contact .mail-icon-container .email {
       position: absolute;
       font-family: Raleway, Helvetica, sans-serif;

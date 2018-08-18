@@ -61,6 +61,7 @@ body {
    background: $bg-color;
       nav {
          margin: auto;
+         padding-bottom: 8%;
          a {
          color: #5C1F37;
          }
@@ -68,15 +69,19 @@ body {
       .mail-icon-container{
          position:relative;
          width:100%;
-         img{
+
+         img {
             display: block;
             margin:auto;
          }
-         .greeting{
+
+         .greeting {
             position:absolute;
             font-family: $font-stack--heading;
             color:#5C1F37;
             font-size: 30px;
+            margin:auto;
+
          }
          .email {
             position: absolute;
@@ -157,21 +162,20 @@ body {
          }
       }
       .graphic{
-      display: flex;
-      margin-top:10%;
-      margin-left: 10%;
-      &--content {
+         display: flex;
+         margin-top:10%;
+         margin-left: 10%;
+         &--content {
          font-family: $font-stack--heading;
          font-size:30px;
          margin-left:9%;
          color: #5C1F37;
-      }
-
-      a{
+         }
+         a {
          text-decoration: none;
          color:#5C1F37;
+         }
       }
-   }
    }
 
    &--pdes-work {
