@@ -15,8 +15,8 @@ body {
   body nav ul {
     display: flex;
     width: 500px;
-    margin-top: 3%;
-    margin-left: 35%; }
+    padding-top: 60px;
+    margin: auto; }
   body nav li {
     text-align: center;
     width: 100px; }
@@ -31,7 +31,6 @@ body {
 #page--contact {
   background: #DED7D7; }
   #page--contact nav {
-    margin: auto;
     padding-bottom: 8%; }
     #page--contact nav a {
       color: #5C1F37; }

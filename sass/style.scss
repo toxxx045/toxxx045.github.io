@@ -34,8 +34,10 @@ body {
       ul {
          display: flex;
          width: 500px;
-         margin-top:3%;
-         margin-left:35%;
+         padding-top:60px;
+         margin:auto;
+         // text-align: center;
+
 
       }
 
@@ -60,7 +62,7 @@ body {
    &--contact {
    background: $bg-color;
       nav {
-         margin: auto;
+         // margin: auto;
          padding-bottom: 8%;
          a {
          color: #5C1F37;
