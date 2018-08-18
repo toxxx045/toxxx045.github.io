@@ -80,14 +80,17 @@ body {
             font-family: $font-stack--heading;
             color:#5C1F37;
             font-size: 30px;
-            margin:auto;
+            margin-top:-27%;
+            margin-left: 40%;
 
          }
          .email {
             position: absolute;
             font-family: $font-stack--content;
             color:#5C1F37;
-            font-size: 30px;
+            font-size: 20px;
+            margin-left: 44%;
+            margin-top: -25%;
             }
       }
 
