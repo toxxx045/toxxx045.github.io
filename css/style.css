@@ -41,19 +41,23 @@ body {
       display: block;
       margin: auto; }
     #page--contact .mail-icon-container .greeting {
-      position: absolute;
       font-family: Syncopate, Arial, sans-serif;
       color: #5C1F37;
       font-size: 30px;
-      margin-top: -400px;
-      margin-left: 570px; }
-    #page--contact .mail-icon-container .email {
+      left: 0;
       position: absolute;
+      text-align: center;
+      top: 40px;
+      width: 100%; }
+    #page--contact .mail-icon-container .email {
       font-family: Raleway, Helvetica, sans-serif;
       color: #5C1F37;
       font-size: 20px;
-      margin-left: 630px;
-      margin-top: -370px; }
+      left: 0;
+      position: absolute;
+      text-align: center;
+      top: 70px;
+      width: 100%; }
 #page--about {
   background: #DED7D7; }
   #page--about .container {

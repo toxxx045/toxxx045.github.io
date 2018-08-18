@@ -78,22 +78,28 @@ body {
          }
 
          .greeting {
-            position:absolute;
+
             font-family: $font-stack--heading;
             color:#5C1F37;
             font-size: 30px;
-            margin-top:-400px;
-            margin-left: 570px;
+            left: 0;
+            position:absolute;
+            text-align:center;
+            top: 40px;
+            width: 100%
 
 
          }
          .email {
-            position: absolute;
+
             font-family: $font-stack--content;
             color:#5C1F37;
             font-size: 20px;
-            margin-left: 630px;
-            margin-top: -370px;
+            left: 0;
+            position:absolute;
+            text-align:center;
+            top: 70px;
+            width: 100%
             }
       }
 
