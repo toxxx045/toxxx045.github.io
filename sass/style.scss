@@ -60,15 +60,15 @@ body {
       background: $bg-color url("../img/ship.jpg") no-repeat fixed 0 0/cover;
    }
    &--contact {
-   background: $bg-color;
-      nav {
-         // margin: auto;
-         padding-bottom: 8%;
-         a {
-         color: #5C1F37;
+      background: $bg-color;
+         nav {
+            // margin: auto;
+            padding-bottom: 8%;
+            a {
+            color: #5C1F37;
+            }
          }
-      }
-      .mail-icon-container{
+         .mail-icon-container{
          position:relative;
          width:100%;
 
@@ -186,6 +186,13 @@ body {
          a {
          text-decoration: none;
          color:#5C1F37;
+         }
+      }
+      .web{
+         &--content{
+            font-family: $font-stack--heading;
+            font-size: 30px;
+            margin-left:9%;
          }
       }
    }
