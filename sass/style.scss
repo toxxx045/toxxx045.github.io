@@ -172,6 +172,7 @@ body {
          display: flex;
          margin-top: 80px;
 
+
          &--content {
             font-family:$font-stack--heading;
             color: #5C1F37;
@@ -183,7 +184,7 @@ body {
             color:#5C1F37;
          }
       }
-      .graphic{
+      .graphic {
          display: flex;
          margin-top:10%;
          justify-content: flex-end;
@@ -199,11 +200,13 @@ body {
          color:#5C1F37;
          }
       }
-      .web{
-         &--content{
+      .web {
+         margin-top: 10%;
+         &--content {
             font-family: $font-stack--heading;
             font-size: 30px;
-            margin-left:9%;
+            color: #5C1F37;
+            // margin-left:9%;
          }
       }
    }
