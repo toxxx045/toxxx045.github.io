@@ -55,6 +55,14 @@ body {
    }
 }
 
+@media (max-width:1189px){
+   #page--portfolio{
+      .pdes{
+         display:none;
+      }
+   }
+}
+
 #page {
    &--home {
       background: $bg-color url("../img/ship.jpg") no-repeat fixed 0 0/cover;
@@ -152,6 +160,8 @@ body {
    }
    &--portfolio {
       background: $bg-color;
+      width:90%;
+      margin:auto;
 
       nav {
          a {

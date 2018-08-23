@@ -26,6 +26,9 @@ body {
     color: white;
     font-size: 20px; }
 
+@media (max-width: 1189px) {
+  #page--portfolio .pdes {
+    display: none; } }
 #page--home {
   background: #DED7D7 url("../img/ship.jpg") no-repeat fixed 0 0/cover; }
 #page--contact {
@@ -88,7 +91,9 @@ body {
     #page--about nav a {
       color: #5C1F37; }
 #page--portfolio {
-  background: #DED7D7; }
+  background: #DED7D7;
+  width: 90%;
+  margin: auto; }
   #page--portfolio nav a {
     color: #5C1F37; }
   #page--portfolio .pdes {
