@@ -105,11 +105,11 @@ body {
   #page--portfolio .graphic {
     display: flex;
     margin-top: 10%;
-    margin-left: 10%; }
+    justify-content: flex-end; }
     #page--portfolio .graphic--content {
       font-family: Syncopate, Arial, sans-serif;
       font-size: 30px;
-      margin-left: 9%;
+      margin-right: 10px;
       color: #5C1F37; }
     #page--portfolio .graphic a {
       text-decoration: none;

@@ -176,11 +176,12 @@ body {
       .graphic{
          display: flex;
          margin-top:10%;
-         margin-left: 10%;
+         justify-content: flex-end;
+         // margin-left: 10%;
          &--content {
          font-family: $font-stack--heading;
          font-size:30px;
-         margin-left:9%;
+         margin-right:10px;
          color: #5C1F37;
          }
          a {
