@@ -25,10 +25,9 @@ body {
     text-decoration: none;
     color: white;
     font-size: 20px; }
+  body nav a:hover {
+    text-shadow: 1px 1px 2px #873659; }
 
-@media (max-width: 1189px) {
-  #page--portfolio .pdes {
-    display: none; } }
 #page--home {
   background: #DED7D7 url("../img/ship.jpg") no-repeat fixed 0 0/cover; }
 #page--contact {
@@ -98,24 +97,37 @@ body {
     color: #5C1F37; }
   #page--portfolio .pdes {
     display: flex;
-    margin-top: 80px; }
+    margin-top: 5%; }
+    #page--portfolio .pdes a:hover {
+      text-shadow: 1px 1px 2px #873659; }
     #page--portfolio .pdes--content {
       font-family: Syncopate, Arial, sans-serif;
       color: #5C1F37;
       margin-left: 10px;
-      font-size: 30px; }
+      font-size: 30px;
+      width: 30%;
+      height: 350px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 350px; }
     #page--portfolio .pdes a {
       text-decoration: none;
       color: #5C1F37; }
   #page--portfolio .graphic {
     display: flex;
-    margin-top: 10%;
+    margin-top: 1%;
     justify-content: flex-end; }
     #page--portfolio .graphic--content {
       font-family: Syncopate, Arial, sans-serif;
       font-size: 30px;
-      margin-right: 10px;
-      color: #5C1F37; }
+      color: #5C1F37;
+      width: 30%;
+      height: 350px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 350px; }
+    #page--portfolio .graphic a:hover {
+      text-shadow: 1px 1px 2px #873659; }
     #page--portfolio .graphic a {
       text-decoration: none;
       color: #5C1F37; }
@@ -131,9 +143,13 @@ body {
     color: #5C1F37; }
   #page--pdes-work #pdes-container-main {
     display: flex;
-    margin: 5%; }
+    width: 90%;
+    margin: auto;
+    padding-top: 100px; }
     #page--pdes-work #pdes-container-main .pdes-content-container {
-      flex: 50%; }
+      width: 50%;
+      flex: 50%;
+      margin: auto; }
     #page--pdes-work #pdes-container-main p {
       font-family: Raleway, Helvetica, sans-serif;
       font-size: 20px;
