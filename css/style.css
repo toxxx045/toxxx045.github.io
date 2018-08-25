@@ -253,16 +253,27 @@ body {
       padding: 1%;
       margin-left: auto;
       margin-right: auto; }
-  #page--graphic-work .owl {
+  #page--graphic-work #owl {
     text-align: center;
     padding-bottom: 200px; }
-    #page--graphic-work .owl img {
+    #page--graphic-work #owl img {
       margin-top: 200px; }
-    #page--graphic-work .owl p {
+    #page--graphic-work #owl p {
       padding-top: 10px;
       font-family: Raleway, Helvetica, sans-serif;
       font-size: 20px;
       color: #5C1F37; }
+  #page--graphic-work #paws #paws-container {
+    display: flex;
+    justify-content: center; }
+    #page--graphic-work #paws #paws-container img {
+      padding-left: 20px; }
+  #page--graphic-work #paws p {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5C1F37;
+    text-align: center;
+    padding-top: 20px; }
 #page--web-work {
   background: #DED7D7; }
   #page--web-work nav a {

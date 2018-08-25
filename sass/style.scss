@@ -398,7 +398,7 @@ body {
          }
 
       }
-      .owl {
+      #owl {
          text-align: center;
          padding-bottom: 200px;
 
@@ -411,6 +411,23 @@ body {
          font-family: $font-stack--content;
          font-size: 20px;
          color: #5C1F37;
+         }
+      }
+
+      #paws{
+         #paws-container{
+            display: flex;
+            justify-content: center;
+            img{
+               padding-left: 20px;
+            }
+         }
+         p{
+            font-family: $font-stack--content;
+            font-size: 20px;
+            color:#5C1F37;
+            text-align: center;
+            padding-top: 20px;
          }
       }
    }
