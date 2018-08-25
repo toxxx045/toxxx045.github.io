@@ -99,7 +99,7 @@ body {
     display: flex;
     margin-top: 5%; }
     #page--portfolio .pdes a:hover {
-      text-shadow: 1px 1px 2px #873659; }
+      text-shadow: 1px 1px 1px #873659; }
     #page--portfolio .pdes--content {
       font-family: Syncopate, Arial, sans-serif;
       color: #5C1F37;
@@ -132,11 +132,23 @@ body {
       text-decoration: none;
       color: #5C1F37; }
   #page--portfolio .web {
-    margin-top: 10%; }
+    margin-top: 1%;
+    display: flex;
+    padding-bottom: 1%; }
     #page--portfolio .web--content {
       font-family: Syncopate, Arial, sans-serif;
       font-size: 30px;
+      color: #5C1F37;
+      width: 30%;
+      height: 350;
+      line-height: 350px;
+      text-align: center;
+      vertical-align: middle; }
+    #page--portfolio .web a {
+      text-decoration: none;
       color: #5C1F37; }
+    #page--portfolio .web a:hover {
+      text-shadow: 1px 1px 2px #873659; }
 #page--pdes-work {
   background: #DED7D7; }
   #page--pdes-work nav a {
@@ -251,5 +263,9 @@ body {
       font-family: Raleway, Helvetica, sans-serif;
       font-size: 20px;
       color: #5C1F37; }
+#page--web-work {
+  background: #DED7D7; }
+  #page--web-work nav a {
+    color: #5C1F37; }
 
 /*# sourceMappingURL=style.css.map */
