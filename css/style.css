@@ -170,6 +170,10 @@ body {
       padding-left: 15px;
       line-height: 1.5;
       border-left: 2px solid #5C1F37; }
+  #page--pdes-work #pdes-container-free-forms {
+    width: 90%;
+    padding-top: 100px;
+    margin: auto; }
 #page--graphic-work {
   background: #DED7D7; }
   #page--graphic-work nav a {
