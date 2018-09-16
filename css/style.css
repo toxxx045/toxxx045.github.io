@@ -131,6 +131,23 @@ body {
     #page--portfolio .graphic a {
       text-decoration: none;
       color: #5C1F37; }
+  #page--portfolio .art {
+    display: flex;
+    margin-top: 1%; }
+    #page--portfolio .art--content {
+      font-family: Syncopate, Arial, sans-serif;
+      font-size: 30px;
+      color: #5C1F37;
+      width: 30%;
+      height: 350px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 350px; }
+    #page--portfolio .art a:hover {
+      text-shadow: 1px 1px 2px #873659; }
+    #page--portfolio .art a {
+      text-decoration: none;
+      color: #5C1F37; }
   #page--portfolio .web {
     margin-top: 1%;
     display: flex;

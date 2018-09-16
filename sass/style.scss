@@ -221,6 +221,30 @@ body {
          color:#5C1F37;
          }
       }
+      .art {
+         display: flex;
+         margin-top: 1%;
+
+         &--content {
+            font-family: $font-stack--heading;
+            font-size:30px;
+            color: #5C1F37;
+            width: 30%;
+            height: 350px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 350px;
+         }
+
+         a:hover {
+            text-shadow: 1px 1px 2px #873659;
+         }
+
+         a {
+            text-decoration: none;
+            color:#5C1F37;
+         }
+      }
       .web {
          margin-top: 1%;
          display: flex;
