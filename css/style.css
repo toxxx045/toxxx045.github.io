@@ -295,6 +295,10 @@ body {
     color: #5C1F37;
     text-align: center;
     padding-top: 20px; }
+#page--art-work {
+  background: #DED7D7; }
+  #page--art-work nav a {
+    color: #5C1F37; }
 #page--web-work {
   background: #DED7D7; }
   #page--web-work nav a {
