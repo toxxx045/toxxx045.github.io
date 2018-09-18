@@ -28,10 +28,9 @@
          <img src="img/sketches.png" alt="Image of auto-dose hand sketches">
       </div>
 
-
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
       <!---
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
       <script src="app.js"></script>
       --->
 
@@ -43,48 +42,14 @@
    <div id="pdes-container-free-forms">
 
       <div class="fotorama">
-         <img src="img/sled.jpg" name="FreeFormImage" alt="free form render">
-         <!---
+         <img src="img/sled.jpg" alt="free form render">
          <img src="img/ship1.jpg" alt="free form render">
          <img src="img/hook.jpg" alt="free form render">
          <img src="img/ring.jpg" alt="free form render">
          <img src="img/plane.jpg" alt="free form render">
-         --->
       </div>
 
    </div>
-
-   <script>
-    //Create an array for the images;
-    var img = []
-    img[0] = "https://toxxx045.github.io/img/sled.jpg";
-    img[1] = "https://toxxx045.github.io/img/ship1.jpg";
-    img[2] = "https://toxxx045.github.io/img/hook.jpg";
-    img[3] = "https://toxxx045.github.io/img/ring.jpg";
-    img[4] = "https://toxxx045.github.io/img/plane.jpg";
-
-    //Select the FreeFormImage on the page
-    var images = document.querySelectorAll('[name=FreeFormImage]');
-
-    //Bind the click event to each image
-    for(var i=0; i < images.length; i++)
-    {
-      var image = images[i];
-      image.addEventListener('click', imageClicked(), false);
-    }
-
-    function imageClicked()
-    {
-      //Wrap the counter variable
-      var counter = 0;
-      return function(event)
-      {
-        //Counter
-        counter++;
-        this.src = img[counter % img.length];
-      }
-     }
-   </script>
 
 </body>
 </html>
