@@ -92,7 +92,8 @@ body {
 #page--portfolio {
   background: #DED7D7;
   width: 90%;
-  margin: auto; }
+  margin: auto;
+  margin-bottom: 100px; }
   #page--portfolio nav a {
     color: #5C1F37; }
   #page--portfolio .pdes {
@@ -170,23 +171,23 @@ body {
   background: #DED7D7; }
   #page--pdes-work nav a {
     color: #5C1F37; }
-  #page--pdes-work #pdes-container-main {
+  #page--pdes-work #pdes-container-autodose {
     display: flex;
     width: 90%;
     margin: auto;
     padding-top: 100px; }
-    #page--pdes-work #pdes-container-main .pdes-content-container {
+    #page--pdes-work #pdes-container-autodose .pdes-content-autodose {
       width: 50%;
       flex: 50%;
       margin: auto; }
-    #page--pdes-work #pdes-container-main p {
-      font-family: Raleway, Helvetica, sans-serif;
-      font-size: 20px;
-      color: #5C1F37;
-      margin-left: 50px;
-      padding-left: 15px;
-      line-height: 1.5;
-      border-left: 2px solid #5C1F37; }
+      #page--pdes-work #pdes-container-autodose .pdes-content-autodose p {
+        font-family: Raleway, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #5C1F37;
+        margin-left: 50px;
+        padding-left: 15px;
+        line-height: 1.5;
+        border-left: 2px solid #5C1F37; }
   #page--pdes-work #pdes-container-free-forms {
     width: 90%;
     padding-top: 100px;
