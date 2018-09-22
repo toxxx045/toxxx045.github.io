@@ -189,9 +189,19 @@ body {
         line-height: 1.5;
         border-left: 2px solid #5C1F37; }
   #page--pdes-work #pdes-container-free-forms {
+    display: flex;
     width: 90%;
     padding-top: 100px;
     margin: auto; }
+    #page--pdes-work #pdes-container-free-forms .pdes-content-free-forms {
+      width: 50%;
+      flex: 50%;
+      margin: auto; }
+      #page--pdes-work #pdes-container-free-forms .pdes-content-free-forms p {
+        font-family: Syncopate, Arial, sans-serif;
+        font-size: 40px;
+        color: #5C1F37;
+        margin-right: 50px; }
 #page--graphic-work {
   background: #DED7D7; }
   #page--graphic-work nav a {
