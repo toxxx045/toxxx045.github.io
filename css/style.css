@@ -201,7 +201,8 @@ body {
         font-family: Syncopate, Arial, sans-serif;
         font-size: 40px;
         color: #5C1F37;
-        margin-right: 50px; }
+        margin: auto;
+        padding-left: 50px; }
 #page--graphic-work {
   background: #DED7D7; }
   #page--graphic-work nav a {
