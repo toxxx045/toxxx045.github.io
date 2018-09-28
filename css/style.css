@@ -203,6 +203,24 @@ body {
         color: #5C1F37;
         margin: auto;
         padding-left: 50px; }
+  #page--pdes-work #pdes-herb-planter {
+    display: flex;
+    width: 90%;
+    padding-top: 100px;
+    margin: auto; }
+    #page--pdes-work #pdes-herb-planter .pdes-content-planter {
+      width: 50%;
+      flex: 50%;
+      margin: auto; }
+      #page--pdes-work #pdes-herb-planter .pdes-content-planter p {
+        font-family: Raleway, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #5C1F37;
+        text-align: right;
+        padding-right: 15px;
+        margin-right: 50px;
+        line-height: 1.5;
+        border-right: 2px solid #5C1F37; }
 #page--graphic-work {
   background: #DED7D7; }
   #page--graphic-work nav a {
