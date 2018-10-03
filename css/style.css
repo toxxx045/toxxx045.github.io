@@ -114,6 +114,12 @@ body {
     #page--portfolio .pdes a {
       text-decoration: none;
       color: #5C1F37; }
+    @media (max-width: 1335px) {
+      #page--portfolio .pdes {
+        display: block; }
+        #page--portfolio .pdes--content {
+          margin: auto;
+          line-height: 100px; } }
   #page--portfolio .graphic {
     display: flex;
     margin-top: 1%;
