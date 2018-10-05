@@ -267,6 +267,7 @@ body {
     display: flex;
     justify-content: space-between; }
     #page--graphic-work #card .card-container {
+      flex: 50%;
       margin-left: 5%;
       margin-bottom: 200px; }
       #page--graphic-work #card .card-container .card {
@@ -283,6 +284,8 @@ body {
         transition-delay: 5s; }
       #page--graphic-work #card .card-container .card:hover .img-top {
         display: inline; }
+    #page--graphic-work #card #p--logotype {
+      flex: 50%; }
   #page--graphic-work #pixels {
     display: flex; }
     #page--graphic-work #pixels p {

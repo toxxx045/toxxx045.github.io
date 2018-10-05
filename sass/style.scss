@@ -432,6 +432,7 @@ body {
          display: flex;
          justify-content: space-between;
           .card-container {
+            flex: 50%;
             margin-left: 5%;
             margin-bottom: 200px;
             .card {
@@ -451,6 +452,10 @@ body {
             .card:hover .img-top {
                 display: inline;
             }
+         }
+
+         #p--logotype {
+            flex: 50%;
          }
       }
 
