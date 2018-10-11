@@ -532,6 +532,35 @@ body {
             color:#5C1F37;
          }
       }
+
+      #heart {
+         display: flex;
+         width:90%;
+         justify-content: center;
+         margin-top: 100px;
+         .card-container {
+           // flex: 50%;
+           // margin-left: 5%;
+           margin-bottom: 200px;
+           .card {
+             // width: 130px;
+             height: 195px;
+             position: relative;
+             display: inline-block;
+         }
+           .card .img-top {
+               display: none;
+               position: absolute;
+               top: 0;
+               left: 0;
+               z-index: 99;
+               transition-delay: 8s;
+           }
+           .card:hover .img-top {
+               display: inline;
+           }
+        }
+      }
    }
 
    &--web-work{

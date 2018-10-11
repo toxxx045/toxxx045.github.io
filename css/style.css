@@ -332,6 +332,26 @@ body {
   background: #DED7D7; }
   #page--art-work nav a {
     color: #5C1F37; }
+  #page--art-work #heart {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin-top: 100px; }
+    #page--art-work #heart .card-container {
+      margin-bottom: 200px; }
+      #page--art-work #heart .card-container .card {
+        height: 195px;
+        position: relative;
+        display: inline-block; }
+      #page--art-work #heart .card-container .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        transition-delay: 8s; }
+      #page--art-work #heart .card-container .card:hover .img-top {
+        display: inline; }
 #page--web-work {
   background: #DED7D7; }
   #page--web-work nav a {
