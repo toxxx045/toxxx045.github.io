@@ -188,6 +188,24 @@ body {
         padding-left: 15px;
         line-height: 1.5;
         border-left: 2px solid #5C1F37; }
+  #page--pdes-work #pdes-risd-footwear {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 100px; }
+    #page--pdes-work #pdes-risd-footwear .risd-footwear-content {
+      width: 50%;
+      flex: 50%;
+      margin: auto; }
+      #page--pdes-work #pdes-risd-footwear .risd-footwear-content p {
+        font-family: Raleway, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #5C1F37;
+        margin-left: 50px;
+        padding-left: 15px;
+        line-height: 1.5;
+        border-left: 2px solid #5C1F37; }
   #page--pdes-work #pdes-container-free-forms {
     display: flex;
     width: 90%;
@@ -311,17 +329,19 @@ body {
       font-family: Raleway, Helvetica, sans-serif;
       font-size: 20px;
       color: #5C1F37; }
-  #page--graphic-work #paws #paws-container {
-    display: flex;
-    justify-content: center; }
-    #page--graphic-work #paws #paws-container img {
-      padding-left: 20px; }
-  #page--graphic-work #paws p {
-    font-family: Raleway, Helvetica, sans-serif;
-    font-size: 20px;
-    color: #5C1F37;
-    text-align: center;
-    padding-top: 20px; }
+  #page--graphic-work #paws {
+    margin-bottom: 100px; }
+    #page--graphic-work #paws #paws-container {
+      display: flex;
+      justify-content: center; }
+      #page--graphic-work #paws #paws-container img {
+        padding-left: 20px; }
+    #page--graphic-work #paws p {
+      font-family: Raleway, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #5C1F37;
+      text-align: center;
+      padding-top: 20px; }
 #page--art-work {
   background: #DED7D7; }
   #page--art-work nav a {
