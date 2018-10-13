@@ -366,6 +366,11 @@ body {
         transition-delay: 8s; }
       #page--art-work #heart .card-container .card:hover .img-top {
         display: inline; }
+    #page--art-work #heart .card-content {
+      font-family: Raleway, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #5C1F37;
+      padding-top: 15px; }
 #page--web-work {
   background: #DED7D7; }
   #page--web-work nav a {

@@ -172,6 +172,17 @@ body {
          }
       }
 
+      // .design-title {
+      //
+      //    p{
+      //       font-family:$font-stack--heading;
+      //       color: #5C1F37;
+      //       font-size: 100px;
+      //       text-align: center;
+      //       margin-top: 100px;
+      //    }
+      // }
+
       .pdes {
          display: flex;
          margin-top: 5%;
@@ -584,6 +595,13 @@ body {
            .card:hover .img-top {
                display: inline;
            }
+        }
+
+        .card-content {
+           font-family: $font-stack--content;
+           font-size: 20px;
+           color:#5C1F37;
+           padding-top:15px;
         }
       }
    }
