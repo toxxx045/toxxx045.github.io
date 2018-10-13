@@ -464,8 +464,8 @@ body {
       }
 
       #card{
-         display: block;
-         justify-content: center;
+         // display: block;
+         // justify-content: center;
           .card-container {
             // flex: 50%;
             margin-left: 5%;
@@ -492,17 +492,6 @@ body {
          // #p--logotype {
          //    flex: 50%;
          // }
-      }
-
-      #pixels{
-         display: flex;
-         p{
-            font-family: $font-stack--content;
-            font-size: 20px;
-            color: #5C1F37;
-            padding-right: 30px;
-            padding-left: 30px;
-         }
       }
 
       #independent-work{

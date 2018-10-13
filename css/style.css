@@ -278,34 +278,23 @@ body {
     color: #5C1F37;
     padding: 10px;
     font-size: 20px; }
-  #page--graphic-work #card {
-    display: block;
-    justify-content: center; }
-    #page--graphic-work #card .card-container {
-      margin-left: 5%;
-      margin-bottom: 20px; }
-      #page--graphic-work #card .card-container .card {
-        width: 130px;
-        height: 195px;
-        position: relative;
-        display: inline-block; }
-      #page--graphic-work #card .card-container .card .img-top {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-        transition-delay: 5s; }
-      #page--graphic-work #card .card-container .card:hover .img-top {
-        display: inline; }
-  #page--graphic-work #pixels {
-    display: flex; }
-    #page--graphic-work #pixels p {
-      font-family: Raleway, Helvetica, sans-serif;
-      font-size: 20px;
-      color: #5C1F37;
-      padding-right: 30px;
-      padding-left: 30px; }
+  #page--graphic-work #card .card-container {
+    margin-left: 5%;
+    margin-bottom: 20px; }
+    #page--graphic-work #card .card-container .card {
+      width: 130px;
+      height: 195px;
+      position: relative;
+      display: inline-block; }
+    #page--graphic-work #card .card-container .card .img-top {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 99;
+      transition-delay: 5s; }
+    #page--graphic-work #card .card-container .card:hover .img-top {
+      display: inline; }
   #page--graphic-work #independent-work {
     font-family: Syncopate, Arial, sans-serif;
     font-size: 30px;
