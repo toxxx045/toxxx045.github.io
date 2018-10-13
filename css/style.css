@@ -350,7 +350,7 @@ body {
     display: flex;
     width: 90%;
     justify-content: center;
-    margin-top: 100px; }
+    margin-top: 60px; }
     #page--art-work #heart .card-container {
       margin-bottom: 200px; }
       #page--art-work #heart .card-container .card {
@@ -370,7 +370,8 @@ body {
       font-family: Raleway, Helvetica, sans-serif;
       font-size: 20px;
       color: #5C1F37;
-      padding-top: 15px; }
+      padding-top: 15px;
+      margin: auto; }
 #page--web-work {
   background: #DED7D7; }
   #page--web-work nav a {
