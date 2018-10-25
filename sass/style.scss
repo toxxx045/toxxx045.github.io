@@ -598,14 +598,29 @@ body {
       }
    }
 
-   &--web-work{
+   &--resume {
       background: $bg-color;
-
-      nav {
-         a {
-         color:#5C1F37;
+      nav{
+         a{
+            color:#5C1F37;
          }
       }
 
+      .resume-content {
+      img{
+         width:90%;
+      }
+      }
    }
+
+   // &--web-work{
+   //    background: $bg-color;
+   //
+   //    nav {
+   //       a {
+   //       color:#5C1F37;
+   //       }
+   //    }
+   //
+   // }
 }

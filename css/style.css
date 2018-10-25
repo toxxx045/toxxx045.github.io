@@ -361,9 +361,11 @@ body {
       color: #5C1F37;
       padding-top: 15px;
       margin: auto; }
-#page--web-work {
+#page--resume {
   background: #DED7D7; }
-  #page--web-work nav a {
+  #page--resume nav a {
     color: #5C1F37; }
+  #page--resume .resume-content img {
+    width: 90%; }
 
 /*# sourceMappingURL=style.css.map */
